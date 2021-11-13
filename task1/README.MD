@@ -1,17 +1,17 @@
 ### Dashboard is deployed
-<img src="screenshots/1.png" width=350>
+<img src="screenshots/1." width=1000>
 
 ### Pod is runned from nginx docker image
 
 Deleating of this pod is irreversible
 
-<img src="screenshots/2.png" width=350>
+<img src="screenshots/2." width=1000>
 
 ### Also deployed 2 nginx pods
 
 First of them is ran from file pod.yaml. The deleating of it is irreverseble too. But the second one is deployed from rs.yaml like ReplicaSet. So this unit is scalable and will 'rerun' after deleating.
 
-<img src="screenshots/3.png" width=350>
+<img src="screenshots/3." width=1000>
 
 ### As hometask was written deploy.yaml
 
@@ -41,11 +41,11 @@ spec:
 
 After deploy there are two pods added in namespace:
 
-<img src="screenshots/4.png" width=350>
+<img src="screenshots/4." width=1000>
 
 Let's try to delete one of them and check if the other one comes on duty instead of deleted pod:
 
-<img src="screenshots/5.png" width=350>
+<img src="screenshots/5." width=1000>
 
 That's it! New soldier is here! :)
 
@@ -54,7 +54,7 @@ That's it! New soldier is here! :)
 After deleting of all pods in default ns there should be only 3 kept alive pods. 
 Let's check:
 
-<img src="screenshots/6.png" width=350>
+<img src="screenshots/6." width=1000>
 
 Yes, that's right. 2 of pods provides deploy.yaml and last one is provided by rs.yaml!
 
