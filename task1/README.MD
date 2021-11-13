@@ -58,4 +58,4 @@ Let's check:
 
 Yes, that's right. 2 of pods provides deploy.yaml and last one is provided by rs.yaml!
 
-##Thanks for your lessons!
+## Thanks for your lessons!
