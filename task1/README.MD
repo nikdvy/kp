@@ -54,8 +54,8 @@ That's it! New soldier is here! :)
 After deleting of all pods in default ns there should be only 3 kept alive pods. 
 Let's check:
 
-![](screenshot/6.png)
+![](screenshots/6.png)
 
 Yes, that's right. 2 of pods provides deploy.yaml and last one is provided by rs.yaml!
 
-Thanks for eour lessons!
+##Thanks for your lessons!
